@@ -25,8 +25,6 @@ author_profile: true
 | 7 | Design of Electromagnetically Driven Fire Extinguishing Bomb Based on Stereo Thermal Imaging | **Zhongyao Tuo**, Shan Jiang, Xunzhen Huang, Zengbo Xu, Kexue Sun, Runqiang Wu | College Physics Experiment, 2024, 37(1): 69-74 | **First author** | [DOI](https://doi.org/10.14139/j.cnki.cn22-1228.2024.01.015) |
 | 8 | Design of a Micromouse Based on Real Maze Terrain | Runqiang Wu, **Zhongyao Tuo**, Wenjie Liu, Jingchen Xiang, Kexue Sun | College Physics Experiment, 2023, 36(3) | Second author | — |
 
-> **Statistics**: 2 first-author, 3 second-author, 3 third-author (8 total). 2 more papers under review. 1 patent application.
-
 <script>
 (function() { localStorage.setItem('site-language', 'en'); })();
 </script>

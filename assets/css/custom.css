@@ -81,3 +81,59 @@
 .page__content .table-wrapper {
   overflow-x: auto;
 }
+
+/* ===== 移除左上角标题后的导航微调 ===== */
+.masthead__inner-wrap {
+  padding: 0.5rem 1rem !important;
+}
+.greedy-nav {
+  gap: 0.25rem;
+}
+.greedy-nav .site-logo {
+  margin-right: 0;
+}
+
+/* ===== 加宽右侧内容区域 ===== */
+#main {
+  max-width: 1400px !important;
+}
+.sidebar + .page {
+  flex: 1 1 100% !important;
+  max-width: 100% !important;
+}
+.archive {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===== 个人荣誉两列网格布局 ===== */
+.honor-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 1.5rem;
+}
+@media (max-width: 600px) {
+  .honor-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.honor-item {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #e9ecef;
+  line-height: 1.5;
+}
+.honor-item .honor-name {
+  font-weight: 500;
+  display: block;
+}
+.honor-item .honor-meta {
+  font-size: 0.8rem;
+  color: #888;
+}
+.honor-item .honor-meta .honor-from {
+  color: #6c757d;
+}
+.honor-item .honor-meta .honor-year {
+  color: #999;
+}

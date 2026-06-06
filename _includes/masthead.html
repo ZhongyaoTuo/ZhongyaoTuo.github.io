@@ -1,11 +1,5 @@
 <nav class="greedy-nav">
-  <a class="site-title" href="{{ '/' | relative_url }}">
-    {% if site.logo and site.logo != "" and site.logo != " " %}
-      <img class="site-logo" src="{{ site.logo | relative_url }}" alt="">
-    {% endif %}
-    <span data-lang="zh">{{ site.title }}</span>
-    <span data-lang="en" style="display:none;">Zhongyao Tuo</span>
-  </a>
+<!-- Site title removed per user request -->
   <ul class="visible-links">
     {%- for link in site.data.navigation.main -%}
       <li class="masthead__menu-item">

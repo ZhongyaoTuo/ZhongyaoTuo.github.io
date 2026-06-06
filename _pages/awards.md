@@ -23,22 +23,22 @@ author_profile: true
 
 ## 🎓 个人荣誉
 
-| 荣誉名称 | 授予单位 | 时间 |
-|---|---|---|
-| 优秀教学信息员 | 南京邮电大学 | 2024 |
-| 智能基座"未来之星" | 教育部-华为联合工作组 | 2024 |
-| 校长嘉奖令 | 南京邮电大学 | 2023 |
-| 优秀青年志愿者 | 南京邮电大学 | 2023 |
-| 先进个人 | 南京邮电大学 | 2023 |
-| 绿色低碳奖学金 | 南京邮电大学 | 2023 |
-| 三好学生 | 南京邮电大学 | 2023 |
-| 一等奖学金 | 南京邮电大学 | 2023 |
-| 优秀教学信息员 | 南京邮电大学 | 2023 |
-| 优秀共青团员 | 南京邮电大学 | 2023 |
-| 智能基座"未来之星" | 教育部-华为联合工作组 | 2023 |
-| 三好学生 | 南京邮电大学 | 2022 |
-| 二等奖学金 | 南京邮电大学 | 2022 |
-| 模范团员 | 随州一中 | 2020 |
+<div class="honor-grid">
+  <div class="honor-item"><span class="honor-name">优秀教学信息员</span><span class="honor-meta"><span class="honor-from">南京邮电大学</span> · <span class="honor-year">2024</span></span></div>
+  <div class="honor-item"><span class="honor-name">智能基座"未来之星"</span><span class="honor-meta"><span class="honor-from">教育部-华为联合工作组</span> · <span class="honor-year">2024</span></span></div>
+  <div class="honor-item"><span class="honor-name">校长嘉奖令</span><span class="honor-meta"><span class="honor-from">南京邮电大学</span> · <span class="honor-year">2023</span></span></div>
+  <div class="honor-item"><span class="honor-name">优秀青年志愿者</span><span class="honor-meta"><span class="honor-from">南京邮电大学</span> · <span class="honor-year">2023</span></span></div>
+  <div class="honor-item"><span class="honor-name">先进个人</span><span class="honor-meta"><span class="honor-from">南京邮电大学</span> · <span class="honor-year">2023</span></span></div>
+  <div class="honor-item"><span class="honor-name">绿色低碳奖学金</span><span class="honor-meta"><span class="honor-from">南京邮电大学</span> · <span class="honor-year">2023</span></span></div>
+  <div class="honor-item"><span class="honor-name">三好学生</span><span class="honor-meta"><span class="honor-from">南京邮电大学</span> · <span class="honor-year">2023</span></span></div>
+  <div class="honor-item"><span class="honor-name">一等奖学金</span><span class="honor-meta"><span class="honor-from">南京邮电大学</span> · <span class="honor-year">2023</span></span></div>
+  <div class="honor-item"><span class="honor-name">优秀教学信息员</span><span class="honor-meta"><span class="honor-from">南京邮电大学</span> · <span class="honor-year">2023</span></span></div>
+  <div class="honor-item"><span class="honor-name">优秀共青团员</span><span class="honor-meta"><span class="honor-from">南京邮电大学</span> · <span class="honor-year">2023</span></span></div>
+  <div class="honor-item"><span class="honor-name">智能基座"未来之星"</span><span class="honor-meta"><span class="honor-from">教育部-华为联合工作组</span> · <span class="honor-year">2023</span></span></div>
+  <div class="honor-item"><span class="honor-name">三好学生</span><span class="honor-meta"><span class="honor-from">南京邮电大学</span> · <span class="honor-year">2022</span></span></div>
+  <div class="honor-item"><span class="honor-name">二等奖学金</span><span class="honor-meta"><span class="honor-from">南京邮电大学</span> · <span class="honor-year">2022</span></span></div>
+  <div class="honor-item"><span class="honor-name">模范团员</span><span class="honor-meta"><span class="honor-from">随州一中</span> · <span class="honor-year">2020</span></span></div>
+</div>
 
 ## 🎯 社会实践
 
