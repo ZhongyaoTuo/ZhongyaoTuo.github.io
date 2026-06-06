@@ -7,21 +7,21 @@
 
 <div class="author__content">
   <!-- 中文姓名 -->
-  <h3 class="author__name" style="text-align: center; line-height: 1.3; margin-bottom: 0.5rem;" data-lang="zh">
+  <h3 class="author__name" style="line-height: 1.3; margin-bottom: 0.5rem;" data-lang="zh">
     庹忠曜
   </h3>
   <!-- 英文姓名 -->
-  <h3 class="author__name" style="text-align: center; line-height: 1.3; margin-bottom: 0.5rem; display:none;" data-lang="en">
+  <h3 class="author__name" style="line-height: 1.3; margin-bottom: 0.5rem; display:none;" data-lang="en">
     Zhongyao Tuo
   </h3>
 
   {% if site.author.bio %}
     <!-- 中文简介 -->
-    <div class="author__bio" style="text-align: center; margin: 0.75rem 0; line-height: 1.5;" data-lang="zh">
+    <div class="author__bio" style="margin: 0.75rem 0; line-height: 1.5;" data-lang="zh">
       {{ site.author.bio | markdownify }}
     </div>
     <!-- 英文简介 -->
-    <div class="author__bio" style="text-align: center; margin: 0.75rem 0; line-height: 1.5; display:none;" data-lang="en">
+    <div class="author__bio" style="margin: 0.75rem 0; line-height: 1.5; display:none;" data-lang="en">
       <p>CPC member. B.S. in Intelligent Science &amp; Technology, NJUPT (Rank 1/62).<br>
       M.S. candidate in Info. &amp; Communication Eng., ShanghaiTech University.<br>
       8 publications (2 first-author), 1 patent.<br>
@@ -30,34 +30,35 @@
   {% endif %}
 
   <!-- 中文位置 -->
-  <div style="text-align: center; color: #666; font-size: 0.85rem; margin-top: 0.25rem;" data-lang="zh">
+  <div style="color: #666; font-size: 0.85rem; margin-top: 0.25rem;" data-lang="zh">
     <i class="fas fa-fw fa-map-marker-alt"></i> 中国 上海
   </div>
   <!-- 英文位置 -->
-  <div style="text-align: center; color: #666; font-size: 0.85rem; margin-top: 0.25rem; display:none;" data-lang="en">
+  <div style="color: #666; font-size: 0.85rem; margin-top: 0.25rem; display:none;" data-lang="en">
     <i class="fas fa-fw fa-map-marker-alt"></i> Shanghai, China
   </div>
 </div>
 
-<div class="author__urls-wrapper" style="text-align: center;">
+<div class="author__urls-wrapper">
   <ul class="author__urls social-icons" style="padding-left: 0; list-style: none; margin-top: 1rem;">
     {% for link in site.author.links %}
       <li style="margin-bottom: 0.75rem;">
         <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer"
-           style="display: inline-flex !important; align-items: center !important; gap: 0.5rem !important; flex-direction: row !important; white-space: nowrap !important;">
+           style="display: inline-flex !important; align-items: center !important; gap: 0.5rem !important; flex-direction: row !important; white-space: nowrap !important;"
+           data-zh="{{ link.label }}"
+           data-en="{{ link.en_label | default: link.label }}">
           <i class="{{ link.icon | default: 'fas fa-link' }}"></i>
-          {{ link.label }}
+          <span class="nav-label">{{ link.label }}</span>
         </a>
       </li>
     {% endfor %}
   </ul>
 
-  <!-- 中文页脚文字 -->
-  <div style="text-align:center; font-size:0.75rem; color:#aaa; margin-top:1rem; border-top:1px solid #eee; padding-top:0.75rem;" data-lang="zh">
+  <!-- 页脚邮箱 -->
+  <div style="font-size:0.75rem; color:#aaa; margin-top:1rem; border-top:1px solid #eee; padding-top:0.75rem;" data-lang="zh">
     📧 tuozhy2025@shanghaitech.edu.cn
   </div>
-  <!-- 英文页脚文字 -->
-  <div style="text-align:center; font-size:0.75rem; color:#aaa; margin-top:1rem; border-top:1px solid #eee; padding-top:0.75rem; display:none;" data-lang="en">
+  <div style="font-size:0.75rem; color:#aaa; margin-top:1rem; border-top:1px solid #eee; padding-top:0.75rem; display:none;" data-lang="en">
     📧 tuozhy2025@shanghaitech.edu.cn
   </div>
 </div>

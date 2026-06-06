@@ -4,6 +4,12 @@ permalink: /publications/
 author_profile: true
 ---
 
+<div style="text-align:right; margin-bottom:1rem;">
+  <a href="/publications-en/" onclick="localStorage.setItem('site-language','en')" style="font-size:0.85rem; color:#667eea; text-decoration:none;">
+    🌐 English Version
+  </a>
+</div>
+
 <style>
 .publication-item {
   margin-bottom: 1.5rem;
@@ -120,3 +126,7 @@ author_profile: true
 </div>
 
 > **统计**：一作2篇，二作3篇，三作3篇，共计8篇。另有2篇论文已受理，参与申请专利1项。
+
+<script>
+(function() { localStorage.setItem('site-language', 'zh'); })();
+</script>

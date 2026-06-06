@@ -4,6 +4,12 @@ permalink: /cv/
 author_profile: true
 ---
 
+<div style="text-align:right; margin-bottom:1rem;">
+  <a href="/cv-en/" onclick="localStorage.setItem('site-language','en')" style="font-size:0.85rem; color:#667eea; text-decoration:none;">
+    🌐 English Version
+  </a>
+</div>
+
 ## 教育背景
 
 | 时间 | 学校 | 专业 | 排名 |
@@ -74,3 +80,7 @@ author_profile: true
 ## 📄 PDF下载
 
 [📥 下载完整简历PDF](/assets/pdfs/cv.pdf) （请将文件放在 `/assets/pdfs/cv.pdf`）
+
+<script>
+(function() { localStorage.setItem('site-language', 'zh'); })();
+</script>

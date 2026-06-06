@@ -5,17 +5,20 @@
 function applyLanguage(lang) {
   document.documentElement.setAttribute('data-lang', lang);
 
-  // Switch nav labels & URLs
-  document.querySelectorAll('.greedy-nav .visible-links a, .greedy-nav .hidden-links a').forEach(function(a) {
+  // Switch nav labels & URLs, and author profile links
+  document.querySelectorAll('.greedy-nav .visible-links a, .greedy-nav .hidden-links a, .author__urls a').forEach(function(a) {
     var zhText = a.getAttribute('data-zh');
     var enText = a.getAttribute('data-en');
     var zhUrl  = a.getAttribute('data-zh-url');
     var enUrl  = a.getAttribute('data-en-url');
+    var labelSpan = a.querySelector('.nav-label');
     if (lang === 'en' && enText) {
-      a.innerHTML = '<span class="nav-label">' + enText + '</span>';
+      if (labelSpan) { labelSpan.textContent = enText; }
+      else { a.innerHTML = '<span class="nav-label">' + enText + '</span>'; }
       if (enUrl) a.setAttribute('href', enUrl);
     } else if (lang === 'zh' && zhText) {
-      a.innerHTML = '<span class="nav-label">' + zhText + '</span>';
+      if (labelSpan) { labelSpan.textContent = zhText; }
+      else { a.innerHTML = '<span class="nav-label">' + zhText + '</span>'; }
       if (zhUrl) a.setAttribute('href', zhUrl);
     }
   });

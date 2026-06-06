@@ -16,46 +16,29 @@ author_profile: true
 |---|---|---|
 | 9th China "Internet+" College Students Innovation & Entrepreneurship Competition | **National Gold Award** | 2024.04 |
 | 19th National College Student Intelligent Car Competition (Unicycle Group) | Regional Second Prize | 2024.08 |
-| 2024 American Mathematical Modeling Competition (MCM/ICM) | Honorable Mention (H奖) | 2024.05 |
-| 10th National College Student Statistical Modeling Competition | Jiangsu First Prize (Advanced to National) | 2024.06 |
+| 2024 American Mathematical Modeling Competition (MCM/ICM) | Honorable Mention | 2024.05 |
+| 10th National College Student Statistical Modeling Competition | **National Third Prize** | 2024.06 |
 | 6th National College Student Embedded Chip & System Design Competition | East China Second Prize | 2023.08 |
 | 4th "Ningqing Cup" Legal Knowledge Competition | Law Master | 2022.10 |
 
-> **National-level**: 3 awards; **Provincial-level**: 3 awards; **Total competition awards**: 6
-
 ## 🎓 Personal Honors
 
-**2024**
-| Honor | Awarded by |
-|---|---|
-| Outstanding Teaching Information Officer | Nanjing University of Posts and Telecommunications |
-| "Future Star" of Intelligent Foundation | MoE-Huawei Joint Working Group |
-
-**2023**
-| Honor | Awarded by |
-|---|---|
-| President's Commendation | Nanjing University of Posts and Telecommunications |
-| Outstanding Young Volunteer | Nanjing University of Posts and Telecommunications |
-| Advanced Individual | Nanjing University of Posts and Telecommunications |
-| Green Low-Carbon Scholarship | Nanjing University of Posts and Telecommunications |
-| Merit Student | Nanjing University of Posts and Telecommunications |
-| First-Class Scholarship | Nanjing University of Posts and Telecommunications |
-| Outstanding Teaching Information Officer | Nanjing University of Posts and Telecommunications |
-| Outstanding League Member | Nanjing University of Posts and Telecommunications |
-| "Future Star" of Intelligent Foundation | MoE-Huawei Joint Working Group |
-
-**2022**
-| Honor | Awarded by |
-|---|---|
-| Merit Student | Nanjing University of Posts and Telecommunications |
-| Second-Class Scholarship | Nanjing University of Posts and Telecommunications |
-
-**High School**
-| Honor | Awarded by | Date |
+| Honor | Awarded by | Year |
 |---|---|---|
-| Model League Member | Suizhou No.1 High School | 2020.09 |
-
-> **Total university-level honors and above**: 17
+| Outstanding Teaching Information Officer | Nanjing University of Posts and Telecommunications | 2024 |
+| "Future Star" of Intelligent Foundation | MoE-Huawei Joint Working Group | 2024 |
+| President's Commendation | Nanjing University of Posts and Telecommunications | 2023 |
+| Outstanding Young Volunteer | Nanjing University of Posts and Telecommunications | 2023 |
+| Advanced Individual | Nanjing University of Posts and Telecommunications | 2023 |
+| Green Low-Carbon Scholarship | Nanjing University of Posts and Telecommunications | 2023 |
+| Merit Student | Nanjing University of Posts and Telecommunications | 2023 |
+| First-Class Scholarship | Nanjing University of Posts and Telecommunications | 2023 |
+| Outstanding Teaching Information Officer | Nanjing University of Posts and Telecommunications | 2023 |
+| Outstanding League Member | Nanjing University of Posts and Telecommunications | 2023 |
+| "Future Star" of Intelligent Foundation | MoE-Huawei Joint Working Group | 2023 |
+| Merit Student | Nanjing University of Posts and Telecommunications | 2022 |
+| Second-Class Scholarship | Nanjing University of Posts and Telecommunications | 2022 |
+| Model League Member | Suizhou No.1 High School | 2020 |
 
 ## 🎯 Social Practice
 

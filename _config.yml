@@ -70,17 +70,21 @@ author:
       icon: "fas fa-fw fa-user-graduate"
       url: "https://openreview.net/profile?id=~Zhongyao_Tuo1"
     - label: "百度百科"
+      en_label: "Baidu Baike"
       icon: "fas fa-fw fa-globe"
       url: "https://baike.baidu.com/item/%E5%BA%B9%E5%BF%A0%E6%9B%9C/65136312"
 footer:
   links:
     - label: "GitHub"
+      en_label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ZhongyaoTuo"
     - label: "OpenReview"
+      en_label: "OpenReview"
       icon: "fas fa-fw fa-user-graduate"
       url: "https://openreview.net/profile?id=~Zhongyao_Tuo1"
     - label: "百度百科"
+      en_label: "Baidu Baike"
       icon: "fas fa-fw fa-globe"
       url: "https://baike.baidu.com/item/%E5%BA%B9%E5%BF%A0%E6%9B%9C/65136312"
 
