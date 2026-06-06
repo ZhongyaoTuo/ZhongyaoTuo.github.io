@@ -23,21 +23,35 @@ author_profile: true
 
 ## 🎓 Personal Honors
 
-<div class="honor-grid">
-  <div class="honor-item"><span class="honor-name">Outstanding Teaching Information Officer</span><span class="honor-meta"><span class="honor-from">Nanjing University of Posts and Telecommunications</span> · <span class="honor-year">2024</span></span></div>
-  <div class="honor-item"><span class="honor-name">"Future Star" of Intelligent Foundation</span><span class="honor-meta"><span class="honor-from">MoE-Huawei Joint Working Group</span> · <span class="honor-year">2024</span></span></div>
-  <div class="honor-item"><span class="honor-name">President's Commendation</span><span class="honor-meta"><span class="honor-from">Nanjing University of Posts and Telecommunications</span> · <span class="honor-year">2023</span></span></div>
-  <div class="honor-item"><span class="honor-name">Outstanding Young Volunteer</span><span class="honor-meta"><span class="honor-from">Nanjing University of Posts and Telecommunications</span> · <span class="honor-year">2023</span></span></div>
-  <div class="honor-item"><span class="honor-name">Advanced Individual</span><span class="honor-meta"><span class="honor-from">Nanjing University of Posts and Telecommunications</span> · <span class="honor-year">2023</span></span></div>
-  <div class="honor-item"><span class="honor-name">Green Low-Carbon Scholarship</span><span class="honor-meta"><span class="honor-from">Nanjing University of Posts and Telecommunications</span> · <span class="honor-year">2023</span></span></div>
-  <div class="honor-item"><span class="honor-name">Merit Student</span><span class="honor-meta"><span class="honor-from">Nanjing University of Posts and Telecommunications</span> · <span class="honor-year">2023</span></span></div>
-  <div class="honor-item"><span class="honor-name">First-Class Scholarship</span><span class="honor-meta"><span class="honor-from">Nanjing University of Posts and Telecommunications</span> · <span class="honor-year">2023</span></span></div>
-  <div class="honor-item"><span class="honor-name">Outstanding Teaching Information Officer</span><span class="honor-meta"><span class="honor-from">Nanjing University of Posts and Telecommunications</span> · <span class="honor-year">2023</span></span></div>
-  <div class="honor-item"><span class="honor-name">Outstanding League Member</span><span class="honor-meta"><span class="honor-from">Nanjing University of Posts and Telecommunications</span> · <span class="honor-year">2023</span></span></div>
-  <div class="honor-item"><span class="honor-name">"Future Star" of Intelligent Foundation</span><span class="honor-meta"><span class="honor-from">MoE-Huawei Joint Working Group</span> · <span class="honor-year">2023</span></span></div>
-  <div class="honor-item"><span class="honor-name">Merit Student</span><span class="honor-meta"><span class="honor-from">Nanjing University of Posts and Telecommunications</span> · <span class="honor-year">2022</span></span></div>
-  <div class="honor-item"><span class="honor-name">Second-Class Scholarship</span><span class="honor-meta"><span class="honor-from">Nanjing University of Posts and Telecommunications</span> · <span class="honor-year">2022</span></span></div>
-  <div class="honor-item"><span class="honor-name">Model League Member</span><span class="honor-meta"><span class="honor-from">Suizhou No.1 High School</span> · <span class="honor-year">2020</span></span></div>
+<div class="honor-grid-table">
+  <table>
+    <thead>
+      <tr><th>Honor</th><th>Awarded by</th><th>Year</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Outstanding Teaching Information Officer</td><td>Nanjing University of Posts and Telecommunications</td><td>2024</td></tr>
+      <tr><td>"Future Star" of Intelligent Foundation</td><td>MoE-Huawei Joint Working Group</td><td>2024</td></tr>
+      <tr><td>President's Commendation</td><td>Nanjing University of Posts and Telecommunications</td><td>2023</td></tr>
+      <tr><td>Outstanding Young Volunteer</td><td>Nanjing University of Posts and Telecommunications</td><td>2023</td></tr>
+      <tr><td>Advanced Individual</td><td>Nanjing University of Posts and Telecommunications</td><td>2023</td></tr>
+      <tr><td>Green Low-Carbon Scholarship</td><td>Nanjing University of Posts and Telecommunications</td><td>2023</td></tr>
+      <tr><td>Merit Student</td><td>Nanjing University of Posts and Telecommunications</td><td>2023</td></tr>
+    </tbody>
+  </table>
+  <table>
+    <thead>
+      <tr><th>Honor</th><th>Awarded by</th><th>Year</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>First-Class Scholarship</td><td>Nanjing University of Posts and Telecommunications</td><td>2023</td></tr>
+      <tr><td>Outstanding Teaching Information Officer</td><td>Nanjing University of Posts and Telecommunications</td><td>2023</td></tr>
+      <tr><td>Outstanding League Member</td><td>Nanjing University of Posts and Telecommunications</td><td>2023</td></tr>
+      <tr><td>"Future Star" of Intelligent Foundation</td><td>MoE-Huawei Joint Working Group</td><td>2023</td></tr>
+      <tr><td>Merit Student</td><td>Nanjing University of Posts and Telecommunications</td><td>2022</td></tr>
+      <tr><td>Second-Class Scholarship</td><td>Nanjing University of Posts and Telecommunications</td><td>2022</td></tr>
+      <tr><td>Model League Member</td><td>Suizhou No.1 High School</td><td>2020</td></tr>
+    </tbody>
+  </table>
 </div>
 
 ## 🎯 Social Practice

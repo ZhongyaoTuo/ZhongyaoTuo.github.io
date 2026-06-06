@@ -72,11 +72,6 @@
   padding: 6px 10px;
 }
 
-/* 论文表格中标题列稍宽 */
-.page__content .pub-table-title {
-  min-width: 200px;
-}
-
 /* 响应式表格：小屏可横向滚动 */
 .page__content .table-wrapper {
   overflow-x: auto;
@@ -93,47 +88,72 @@
   margin-right: 0;
 }
 
-/* ===== 加宽右侧内容区域 ===== */
-#main {
-  max-width: 1400px !important;
+/* ===== 固定顶部导航栏 ===== */
+.masthead {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 1000 !important;
+  background: #fff !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
-.sidebar + .page {
-  flex: 1 1 100% !important;
-  max-width: 100% !important;
-}
-.archive {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+body {
+  padding-top: 64px !important;
 }
 
-/* ===== 个人荣誉两列网格布局 ===== */
-.honor-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem 1.5rem;
+/* 左侧边栏跟随固定导航 */
+.sidebar {
+  top: 64px !important;
 }
-@media (max-width: 600px) {
-  .honor-grid {
-    grid-template-columns: 1fr;
+
+/* ===== 加宽右侧内容区域 ===== */
+/* 主容器占满宽度 */
+#main {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+/* 内容区域占满剩余空间 */
+@media (min-width: 1024px) {
+  .sidebar + .page {
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
+    width: calc(100% - 220px) !important;
   }
 }
-.honor-item {
-  padding: 0.4rem 0;
+/* archive 也占满 */
+.archive {
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* ===== 个人荣誉两列表格布局（与创新竞赛样式一致）===== */
+.honor-grid-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+.honor-grid-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.honor-grid-table table th {
+  background: #f2f3f5 !important;
+  font-weight: 600;
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: 2px solid #dce0e5;
+}
+.honor-grid-table table td {
+  padding: 6px 10px;
   border-bottom: 1px solid #e9ecef;
-  line-height: 1.5;
 }
-.honor-item .honor-name {
-  font-weight: 500;
-  display: block;
-}
-.honor-item .honor-meta {
-  font-size: 0.8rem;
-  color: #888;
-}
-.honor-item .honor-meta .honor-from {
-  color: #6c757d;
-}
-.honor-item .honor-meta .honor-year {
-  color: #999;
+@media (max-width: 768px) {
+  .honor-grid-table {
+    grid-template-columns: 1fr;
+  }
 }
